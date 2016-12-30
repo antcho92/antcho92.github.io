@@ -51,9 +51,9 @@
           <li>
             <a class="page-scroll" href="#about">About</a>
           </li>
-          <li>
+          <!--<li>
             <a class="page-scroll" href="#services">Services</a>
-          </li>
+          </li>-->
           <li>
             <a class="page-scroll" href="#portfolio">Portfolio</a>
           </li>
@@ -84,6 +84,14 @@
           <h2 class="section-heading">About Me</h2>
           <hr class="light">
           <p class="text-faded">I am a web developer with a passion for learning new technologies and programming languages. I recently graduated from Coding Dojo, an intensive three month coding bootcamp where I learned three full stacks in web development (Python, MEAN, and ASP.NET Core with C#).</p>
+          <p class="text-faded">I am eagerly looking for new project ideas and technologies to learn.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center"> 
+          <a href="#resumeModal" data-toggle="modal" class="">
+            <button class="btn">Resume</button>
+          </a>
         </div>
       </div>
     </div>
@@ -175,8 +183,15 @@
       </div>
     </div>
   </section>
-  
-  <section id="contact">
+    <aside class="bg-dark">
+      <div class="container text-center">
+          <div class="call-to-action">
+              <h2>More Projects and Code Available:</h2>
+              <a href="https://www.github.com/antcho92" <i class="fa fa-github fa-3x"></i> github.com/antcho92</a>
+          </div>
+      </div>
+  </aside>
+  <section id="contact" class="">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -186,14 +201,16 @@
         </div>
         <div class="col-lg-4 col-lg-offset-2 text-center">
           <i class="fa fa-linkedin fa-3x sr-contact"></i>
-          <a href="https://www.linkedin.com/in/antcho92">
-            <p>linkedin.com/in/antcho92</p>
-          </a>
+          <p><a href="https://www.linkedin.com/in/antcho92">linkedin.com/in/antcho92</a></p>
         </div>
         <div class="col-lg-4 text-center">
           <i class="fa fa-envelope-o fa-3x sr-contact"></i>
           <p><a href="mailto:antcho92@gmail.com">antcho92@gmail.com</a></p>
         </div>
+        <!--<div class="col-lg-4 text-center">
+          <i class="fa fa-github fa-3x sr-contact"></i>
+          <p><a href="https://www.github.com/antcho92">My Github</a></p>
+        </div>-->
       </div>
     </div>
   </section>
@@ -214,6 +231,7 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/fullsize/ecommerce.png" class="img-responsive img-centered" alt="image for mean ecommerce store">
                             <p>Q&A message board where users can post questions, answer questions, and vote the best answer to the top. Solo project using MongoDB and MongooseJS, Node, Angular, and Express</p>
+                            <p>View code: <a href="https://github.com/antcho92/mean-store"><i class="fa fa-github fa-2x"></i></a></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -237,20 +255,7 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/fullsize/dojobites.jpg" class="img-responsive img-centered" alt="image for dojo bites">
                             <p>Four person web app created to help users find restaurants and coordinate groups to go together. It was created using Python, Django, and Google Maps API.</p>
-                            <!--<ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>-->
+                            <p>View code: <a href="https://github.com/antcho92/dojobites"><i class="fa fa-github fa-2x"></i></a></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -258,7 +263,27 @@
             </div>
         </div>
     </div>
-
+    <!-- Resume Modal -->
+    <div class="portfolio-modal modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                              <script src="https://gist.github.com/antcho92/12246ba2cd6f80e7057c4ed85034ed1b.js"></script>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
 
