@@ -1,0 +1,29 @@
+{
+  "name": "antcho92.github.io",
+  "description": "Anthony Cho's Personal Portfolio",
+  "main": "index.html",
+  "authors": [
+    "Anthony Cho"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "homepage": "https://github.com/antcho92/antcho92.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
+}
